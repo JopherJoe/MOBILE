@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoriesActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/back"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PACKAGES"
+                android:fontFamily="@font/dela"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="350dp"
+                    android:layout_height="550dp"
+                    android:background="@drawable/rounded"
+                    android:orientation="vertical"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_margin="10dp">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/boracay2"
+                        android:layout_width="307dp"
+                        android:layout_height="307dp"
+                        android:layout_marginLeft="22dp"
+                        app:shapeAppearanceOverlay="@style/circular"
+                        app:srcCompat="@drawable/upperboracay"
+                        tools:layout_editor_absoluteX="52dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Boracay"
+                        android:fontFamily="@font/dela"
+                        android:textStyle="bold"
+                        android:backgroundTint="@color/black"
+                        android:textSize="16dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:layout_marginRight="250dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Boracay, one of the top Islands in the Philippines, is popular for its beaches and blessed with a long stretch of powdery white sand, crystal clear and azure waters, and a stunning sunset. Boracay is the most iconic island in the Philipines and has won multiple awards in previous years."
+                        android:textStyle="bold"
+                        android:backgroundTint="@color/black"
+                        android:textSize="14dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/black" />
+
+                    <Button
+                        android:id="@+id/view_boracay"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="103dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/button"
+                        android:fontFamily="@font/dela"
+                        android:text="Book Now"
+                        tools:layout_editor_absoluteX="161dp"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/white"
+                    android:orientation="vertical"
+                    app:layout_constraintTop_toTopOf="parent">
+
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/boracay3"
+                        android:layout_width="307dp"
+                        android:layout_height="307dp"
+                        android:layout_marginLeft="33dp"
+                        app:srcCompat="@drawable/boracay"
+                        tools:layout_editor_absoluteX="52dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Boracay"
+                        android:fontFamily="@font/dela"
+                        android:textStyle="bold"
+                        android:backgroundTint="@color/black"
+                        android:textSize="25dp"
+                        android:textAlignment="center"
+                        />
+
+                    <Button
+                        android:id="@+id/View3"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/button"
+                        android:fontFamily="@font/dela"
+                        android:text="View"
+                        tools:layout_editor_absoluteX="161dp"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/white"
+                    android:orientation="vertical"
+                    app:layout_constraintTop_toTopOf="parent">
+
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/boracay4"
+                        android:layout_width="307dp"
+                        android:layout_height="307dp"
+                        android:layout_marginLeft="33dp"
+                        app:srcCompat="@drawable/boracay"
+                        tools:layout_editor_absoluteX="52dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Boracay"
+                        android:fontFamily="@font/dela"
+                        android:textStyle="bold"
+                        android:backgroundTint="@color/black"
+                        android:textSize="25dp"
+                        android:textAlignment="center"
+                        />
+
+                    <Button
+                        android:id="@+id/View4"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/button"
+                        android:fontFamily="@font/dela"
+                        android:text="View"
+                        tools:layout_editor_absoluteX="161dp"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/white"
+                    android:orientation="vertical"
+                    app:layout_constraintTop_toTopOf="parent">
+
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/boracay5"
+                        android:layout_width="307dp"
+                        android:layout_height="307dp"
+                        android:layout_marginLeft="33dp"
+                        app:srcCompat="@drawable/boracay"
+                        tools:layout_editor_absoluteX="52dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Boracay"
+                        android:fontFamily="@font/dela"
+                        android:textStyle="bold"
+                        android:backgroundTint="@color/black"
+                        android:textSize="25dp"
+                        android:textAlignment="center"
+                        />
+
+                    <Button
+                        android:id="@+id/View5"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/button"
+                        android:fontFamily="@font/dela"
+                        android:text="View"
+                        tools:layout_editor_absoluteX="161dp"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/white"
+                    android:orientation="vertical"
+                    app:layout_constraintTop_toTopOf="parent">
+
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/boracay6"
+                        android:layout_width="307dp"
+                        android:layout_height="307dp"
+                        android:layout_marginLeft="33dp"
+                        app:srcCompat="@drawable/boracay"
+                        tools:layout_editor_absoluteX="52dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Boracay"
+                        android:fontFamily="@font/dela"
+                        android:textStyle="bold"
+                        android:backgroundTint="@color/black"
+                        android:textSize="25dp"
+                        android:textAlignment="center"
+                        />
+
+                    <Button
+                        android:id="@+id/View6"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/button"
+                        android:fontFamily="@font/dela"
+                        android:text="View"
+                        tools:layout_editor_absoluteX="161dp"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
